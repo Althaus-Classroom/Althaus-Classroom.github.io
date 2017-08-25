@@ -1,27 +1,27 @@
 body {
   background: linear-gradient(to right, red, white, blue);
 }
-ul {
+.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: lime;
 }
-li {
+.nav li {
   float: left;
 }
-li a, .dropbtn {
+.nav li a, .dropbtn {
   display: inline-block;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-li a:hover, .dropdown:hover .dropbtn {
+.nav li a:hover, .dropdown:hover .dropbtn {
   background-color: green;
 }
-li.dropdown {
+.nav li.dropdown {
   display: inline-block;
 }
 .dropdown-content {
